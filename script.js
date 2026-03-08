@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const projects = [
     { title: 'Adachi Jisho', icon: 'Projects/Adachi-Jisho.png', link: 'https://troupple.github.io/Adachi-Jisho.github.io/' },
-    { title: 'Know Frills', icon: 'Projects/Know-Frills.png', link: '#' },
+    { title: 'Know Frills', icon: 'Projects/Know-Frills.png', link: 'https://knowfrills.jambles.fun' },
     { title: 'Tools4Teaching', icon: 'Projects/Tools4Teaching.png', link: 'https://tools4teaching.online/' }
   ];
 
@@ -30,3 +30,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
