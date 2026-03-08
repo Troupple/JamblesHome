@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jambles Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+  <div class="container">
+    <div class="main-logo logo-container">
+    </div>
+    <div class="site-tagline">Games and tools made by Jambles</div>
+    <div class="posts">
+    </div>
+  </div>
+  <footer class="footer-frame">
+    <img id="footer-frame-img" src="frame1.png" alt="Footer Frame" />
+    <div class="bmc-footer-btn">
+      <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="jambles" data-color="#5F7FFF" data-emoji="" data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
+    </div>
+    <div class="footer-links">
+      <hr class="footer-divider">
+      <div class="footer-contact">
+        <a href="https://www.instagram.com/troupples/" target="_blank" rel="noopener" class="footer-link">Instagram</a>
+        &nbsp;|&nbsp;
+        <a href="mailto:trouppple@gmail.com" class="footer-link">trouppple@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var bmcBtn = document.querySelector('.bmc-btn-emoji');
+      if (bmcBtn) {
+        var img = document.createElement('img');
+        img.src = 'coffee.svg';
+        img.alt = 'coffee';
+        img.style.width = '22px';
+        img.style.height = '22px';
+        img.style.verticalAlign = 'middle';
+        bmcBtn.innerHTML = '';
+        bmcBtn.appendChild(img);
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
