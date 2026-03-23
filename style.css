@@ -40,6 +40,8 @@
   transform: scale(1.11) translateY(-4px) !important;
   z-index: 2;
   box-shadow: 0 12px 32px 0 rgba(0,0,0,0.18), 0 2px 8px 0 rgba(0,0,0,0.10) !important;
+  border: none !important;
+  outline: none !important;
 }
 .footer-frame {
   width: 100%;
@@ -65,7 +67,7 @@
 }
 .footer-divider {
   border: none;
-  border-top: 1.5px solid #bbb;
+  border-top: 1.5px solid #85aaff;
   margin: 12px auto 8px auto;
   width: 80%;
   display: block;
@@ -102,6 +104,7 @@
   grid-template-rows: auto;
   gap: 22px 22px;
   justify-content: center;
+  margin: auto;
   max-width: 1430px;
   padding: 0 25px;
   width: 100%;
@@ -125,6 +128,15 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: #f7f7f7;
   color: #222;
+  margin: 0;
+  height: 100vh;
+  margin: 0;
+  height: 100vh;
+  background-color: #eaf4fb;
+  background-image:
+    linear-gradient(rgba(80, 140, 200, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 140, 200, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 header {
   text-align: center;
@@ -192,5 +204,3 @@ h1 {
   position: relative;
   z-index: 1;
 }
-
-
