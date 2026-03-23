@@ -109,6 +109,36 @@
   padding: 0 25px;
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  header {
+    margin-top: 8px;
+  }
+  .logo-container {
+    height: 12px;
+    margin-top: 4px;
+    overflow: hidden;
+  }
+  .logo-container{
+    width: 90%;
+    height: 12px;
+    margin: 0 auto;
+  }
+  .posts {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .page-link {
+    display: flex;
+    justify-content: center;
+  }
+  .page-link-img {
+    border-radius: 0 !important;
+    max-width: 40px;
+    height: auto;
+    object-fit: contain;
+  }
+}
 .page-link-img {
   aspect-ratio: 285 / 107;
   border-radius: 15px;
@@ -143,12 +173,13 @@ header {
   margin-top: 40px;
 }
 .logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 48px;
-  margin-bottom: 16px;
-  min-height: 100px;
+    align-items: center;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    grid-gap: 6px;
+    contain: layout style;
+    margin-top: 40px;
 }
 .logo-container svg {
   display: block;
