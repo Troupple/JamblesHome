@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dogImg.addEventListener('click', () => {
       dogImg.src = 'Assets/frame2.png';
       
-      const audio = new Audio('Assets/Yoshi mlem sound effect.mp3');
+      const audio = new Audio('Assets/Yoshi Mlem sound effect.mp3');
       audio.play();
       
       clearTimeout(dogTimeout);
