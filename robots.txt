@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /private/
+
+# Sitemaps
+Sitemap: https://jambles.fun/sitemap.xml
+
+# Crawl delay (in seconds)
+Crawl-delay: 1

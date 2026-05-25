@@ -3,28 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jambles Projects</title>
+  <meta name="description" content="Jambles.Fun - Games and tools for learning and entertainment. Explore interactive projects including Adachi-Jisho, JibberJabbler, Know-Frills, and Tools4Teaching.">
+  <meta name="keywords" content="games, tools, interactive, learning, Jambles, Japanese, jisho, teaching, Nofrills, KnowFrills, Price game, jamble text, text ruiner, text distortion, indie web">
+  <meta name="author" content="Jambles">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jambles.fun/">
+  <meta property="og:title" content="Jambles.fun - Games and Tools">
+  <meta property="og:description" content="Games and tools made by Jambles for learning and entertainment">
+  <meta property="og:image" content="https://jambles.fun/Assets/1x/favicon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jambles.fun - Games and Tools">
+  <meta name="twitter:description" content="Games and tools made by Jambles for learning and entertainment">
+  <meta property="twitter:image" content="https://jambles.fun/Assets/1x/favicon.png">
+  <link rel="canonical" href="https://jambles.fun/">
+  <link rel="alternate" hreflang="en" href="https://jambles.fun/">
+  <link rel="sitemap" type="application/xml" href="https://jambles.fun/sitemap.xml">
+  <title>Jambles.fun</title>
+  <link rel="icon" type="image/svg+xml" href="SVG/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="Assets/1x/favicon.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="Assets/2x/favicon@2x.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="Assets/3x/favicon@3x.png">
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
   <body>
-  <div class="container">
-    <div class="main-logo logo-container">
+    <div class="bg-color"></div>
+    <div class="bg-image"></div>
+    <div class="container">
+      <div class="logo-wrapper">
+        <img src="SVG/JamblesFun.svg" alt="Jambles Fun logo" class="logo-img" />
+        <svg class="bear-svg" viewBox="0 0 69.69 63.52" xmlns="http://www.w3.org/2000/svg">
+          <g id="bearGroup">
+            <path fill="#2a213c" d="M1.39,63.52h67.48c.54,0,.94-.38.78-.76l-10.92-26.51c-.1-.25-.42-.42-.78-.42H12.31c-.36,0-.68.17-.78.42L.61,62.76c-.16.38.24.76.78.76Z" />
+            <path fill="#2a213c" d="M.81,51.77h67.48c.54,0,.94-.38.78-.76l-10.92-26.51c-.1-.25-.42-.42-.78-.42H11.73c-.36,0-.68.17-.78.42L.03,51.01c-.16.38.24.76.78.76Z" />
+            <path fill="#2a213c" d="M4.3,34.27h60.94c.49,0,.84-.38.7-.76l-9.86-26.51c-.09-.25-.38-.42-.7-.42H14.16c-.33,0-.61.17-.7.42L3.6,33.52c-.14.38.21.76.7.76Z" />
+            <path fill="#2a213c" d="M66.26,15.22l-5.65,5.66-12.67-12.33,5.81-5.81c1.72-1.73,3.99-2.59,6.26-2.59s4.52.86,6.25,2.58c3.45,3.45,3.46,9.05.01,12.5Z" />
+            <path fill="#2a213c" d="M4.06,15.08l5.65,5.66,12.67-12.33-5.81-5.81C14.84.86,12.58,0,10.31,0s-4.52.86-6.25,2.58c-3.45,3.45-3.46,9.05-.01,12.5Z" />
+            <g id="leftBrow" class="brow">
+              <rect fill="#f29e9d" x="16.43" y="15.8" width="10.61" height="3.57" rx="1.79" />
+            </g>
+            <g id="rightBrow" class="brow">
+              <rect fill="#f29e9d" x="42.63" y="15.8" width="10.61" height="3.57" rx="1.79" />
+            </g>
+            <ellipse fill="#fff" cx="21.74" cy="25.99" rx="4.31" ry="4.32" />
+            <ellipse fill="#fff" cx="47.89" cy="25.99" rx="4.31" ry="4.32" />
+            <ellipse id="leftPupil" fill="#2a213c" cx="21.74" cy="25.99" rx="2.82" ry="2.83" />
+            <ellipse id="rightPupil" fill="#2a213c" cx="47.89" cy="25.99" rx="2.82" ry="2.83" />
+            <path fill="#f29e9d" d="M31.27,48.84h8.17c4.02,0,6.91-3.88,5.75-7.73l-3.86-16.04c-.76-2.54-3.33-1.84-5.98-1.84h0c-2.65,0-5.56-.36-6.32,2.18l-3.52,15.7c-1.16,3.85,1.73,7.73,5.75,7.73Z" />
+            <path fill="#2a213c" d="M41.28,37.62v2.02s-.03.07-.08.09h0s-5.92,4.2-5.92,4.2l-5.97-4.23v-.31s-.02.27-.02.25v-2.02c0-.08.16-.15.35-.15h11.27c.2,0,.35.07.35.15Z" />
+            <rect fill="#2a213c" x="33.42" y="42.08" width="3.59" height="9.71" transform="translate(-.55 .41) rotate(-.67)" />
+          </g>
+        </svg>
+      </div>
+      <div class="site-tagline">Games and tools made by Jambles</div>
+      <div class="posts">
+          <img id="dog-img" src="Assets/frame1.png" alt="Dog" decoding="async" loading="lazy" />
+      </div>
     </div>
-    <div class="site-tagline">Games and tools made by Jambles</div>
-    <div class="posts">
-    </div>
-  </div>
   <footer class="footer-frame">
-    <img id="footer-frame-img" src="frame1.png" alt="Footer Frame" />
     <div class="bmc-footer-btn">
-      <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="jambles" data-color="#5F7FFF" data-emoji="" data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
+      <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="jambles" data-color="#2563eb" data-emoji="" data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#f5f2e8" data-font-color="#f5f2e8" data-coffee-color="#f5f2e8"></script>
     </div>
     <div class="footer-links">
       <hr class="footer-divider">
       <div class="footer-contact">
-        <a href="https://www.instagram.com/troupples/" target="_blank" rel="noopener" class="footer-link">Instagram</a>
-        &nbsp;|&nbsp;
-        <a href="mailto:Hi@jambles.fun" class="footer-link">Hi@jambles.fun</a>
+        Contact - <a href="mailto:Hi@jambles.fun" class="footer-link">Hi@jambles.fun</a>
       </div>
     </div>
   </footer>
@@ -33,7 +78,7 @@
       var bmcBtn = document.querySelector('.bmc-btn-emoji');
       if (bmcBtn) {
         var img = document.createElement('img');
-        img.src = 'coffee.svg';
+        img.src = 'SVG/coffee.svg';
         img.alt = 'coffee';
         img.style.width = '22px';
         img.style.height = '22px';
@@ -43,6 +88,40 @@
       }
     });
   </script>
-  <script src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jambles Fun",
+    "url": "https://jambles.fun/",
+    "description": "Games and tools made by Jambles",
+    "creator": {
+      "@type": "Person",
+      "name": "Jambles",
+      "email": "Hi@jambles.fun"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://jambles.fun/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Jambles",
+    "url": "https://jambles.fun/",
+    "email": "Hi@jambles.fun",
+    "sameAs": [
+      "https://github.com/Jambles"
+    ],
+    "logo": "https://jambles.fun/Assets/1x/favicon.png"
+  }
+  </script>
 </body>
 </html>

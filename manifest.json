@@ -1,0 +1,33 @@
+{
+  "name": "Jambles.fun",
+  "short_name": "Jambles",
+  "description": "Games and tools made by Jambles",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff3d9",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "Assets/1x/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "Assets/2x/favicon@2x.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "Assets/3x/favicon@3x.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "Assets/3x/favicon@3x.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
